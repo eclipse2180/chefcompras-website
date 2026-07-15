@@ -3,7 +3,9 @@
     "allow": [
       "Bash(curl -sSL -A \"Mozilla/5.0\" -D - -o /dev/null \"https://db.onlinewebfonts.com/t/c7deba0e3cc0d80d18e6b4e939d49bb3.woff2\")",
       "Bash(curl -sSL -A \"Mozilla/5.0\" -e \"https://chefcompras.com/\" -D - -o test300.woff2 \"https://db.onlinewebfonts.com/t/c7deba0e3cc0d80d18e6b4e939d49bb3.woff2\")",
-      "Bash(npx --yes sass index.scss index.css --no-source-map)"
+      "Bash(npx --yes sass index.scss index.css --no-source-map)",
+      "Bash(node *)",
+      "Bash(claude plugin *)"
     ]
   }
 }
